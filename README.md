@@ -9,9 +9,10 @@ To use this project, you'll need to have Docker and Docker Compose installed on 
 1. Clone this repository:
 
 &emsp;&emsp;`git clone https://github.com/Eshaq-F/retry-request.git`
+
 2. Navigate to the project directory:
 
-&emsp;&emsp;`cd your-directory`
+&emsp;&emsp;`cd retry-request`
 
 
 3. Build the Docker image:
