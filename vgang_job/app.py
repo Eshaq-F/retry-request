@@ -1,7 +1,6 @@
-from os import environ, path
+from os import environ
 from celery import Celery
 import requests
-
 
 app = Celery(broker=environ['BROKER_URL'], backend=environ['RESULT_BACKEND'])
 max_retry = int(environ.get('max_retry', 5))
